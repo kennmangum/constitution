@@ -1,0 +1,101 @@
+# ∞Δ∞ Operator Binding Rules
+# Canonical mapping between operator commands and constitutional state
+# Authority: Constitution@A1 + 1176-C1 + Canonical Hydration Protocol
+# Version: 1.0
+# Created: 2025-11-15
+# Maintained By: KM-1176 (Sovereign Principal)
+
+metadata:
+  version: "1.0"
+  created: "2025-11-15"
+  last_updated: "2025-11-15"
+  maintained_by: "KM-1176"
+  sovereignty: "KM-1176 singular exclusive authority"
+  seal: "1176-INFINITY-RHO"
+  purpose: "Define stable, read-only bindings between operator commands and hydration-produced startup_state."
+
+bindings:
+  REPORT_STARTUP_HYDRATE:
+    description: "Return the full startup_state snapshot produced at the end of hydration."
+    source: "hydration.phase7.startup_state"
+    fields:
+      - principal_id
+      - sovereignty_flow
+      - coherence_status
+      - cadence_state
+      - registry_status
+      - seal_verify_state
+      - temporal_anchor_state
+    behavior:
+      mutate_state: false
+      trigger_hydration: false
+      execute_tools: false
+
+  SHOW_FIELD_STATUS:
+    description: "Summarize field-level coherence and structural awareness."
+    source: "hydration.phase7.startup_state"
+    fields:
+      - coherence_status
+      - integrity_status
+      - hydration_order
+      - constitutional_layers
+      - active_implementations_summary
+    behavior:
+      mutate_state: false
+      trigger_hydration: false
+      execute_tools: false
+
+  REPORT_CADENCE_STATUS:
+    description: "Report canonical cadence state as hydrated in Phase 5."
+    source: "hydration.phase7.startup_state.cadence_state"
+    fields:
+      - enabled
+      - mode
+      - next_run
+      - pause_reasons
+    behavior:
+      mutate_state: false
+      trigger_hydration: false
+      execute_tools: false
+
+  SHOW_LAST_3_SEAL_ENTRIES:
+    description: "Show the last three seal entries from CONTINUITY_NODE."
+    source: "CONTINUITY_NODE.seal_history"
+    transform: "tail(3)"
+    behavior:
+      mutate_state: false
+      trigger_hydration: false
+      execute_tools: false
+
+  VERIFY_COHERENCE_INTEGRITY:
+    description: "Return the most recent integrity_state from Phase 6."
+    source: "hydration.phase6.integrity_state"
+    fields:
+      - integrity_status
+      - issues
+      - last_run
+    behavior:
+      mutate_state: false
+      trigger_hydration: false
+      execute_tools: false
+
+bin_scripts:
+  ritual_one_breath:
+    path: "bin/ritual-one-breath.sh"
+    description: "Human diagnostic ritual that calls operator commands only."
+    allowed_commands:
+      - REPORT_STARTUP_HYDRATE
+      - SHOW_FIELD_STATUS
+      - REPORT_CADENCE_STATUS
+      - SHOW_LAST_3_SEAL_ENTRIES
+      - VERIFY_COHERENCE_INTEGRITY
+    constraints:
+      call_hydration: false
+      mutate_state: false
+      call_tools_directly: false
+
+invariants:
+  - "Operator commands must never trigger hydration."
+  - "Operator commands must never mutate constitutional state."
+  - "Operator commands must read only from hydration-produced startup_state and related immutable structures."
+  - "Contextual memory must not override or alter operator_binding_rules.yaml."

@@ -1,0 +1,272 @@
+# Agent Decision Map
+# Teaches agents WHEN to recommend WHAT actions
+# Read by: BNA, Claude Code, any constitutional agent
+# Updated: 2025-10-28 (Wave 2.3b)
+
+---
+
+## Core Principle
+**Agents evaluate context → recommend ONE action → ask approval → execute**
+
+---
+
+## Decision Flow (Evaluate in Order)
+
+contexts:
+
+  # 1. SAFETY FIRST - Always check integrity after file changes
+  files_changed_in_constitution:
+    trigger: "git status shows changes in constitution/"
+    recommended_action: "smoke_test"
+    command: "go 3"
+    human_approval: required
+    rationale: "Constitution changes risk breaking the OS. Verify integrity before proceeding."
+    agent_prompt: |
+      I see changes in constitution/. Running smoke test to verify integrity.
+      Approve running: go 3 (smoke test)?
+
+  # 2. LOST OR STUCK - Use squeeze to analyze and decide
+  user_signals_uncertainty:
+    trigger:
+      - "User says: 'what next', 'I'm stuck', 'what should I do'"
+      - "No clear next action obvious"
+    recommended_action: "squeeze"
+    command: "go 2"
+    human_approval: recommended
+    rationale: "Squeeze analyzes all context (inbox, dossier, current state) and picks ONE best action."
+    agent_prompt: |
+      Let me analyze current context to find the single best next action.
+      Running squeeze (go 2) - this will compress all context into ONE clear directive.
+      Approve?
+
+  # 3. IMPLEMENTATION COMPLETE - Check before sealing
+  feature_implementation_complete:
+    trigger:
+      - "New files created or modified"
+      - "Agent says 'implementation complete'"
+      - "User asks to commit"
+    recommended_action: "constitutional_checks"
+    command: "./tools/constitutional_smoke.sh"
+    human_approval: auto_run_show_results
+    rationale: "Verify SOURCE/TRUTH/INTEGRITY/COMPLEXITY before sealing."
+    agent_prompt: |
+      Implementation complete. Running constitutional checks automatically:
+      - SOURCE: No hardcoded principals
+      - TRUTH: References resolve
+      - INTEGRITY: Gates present
+      - COMPLEXITY: Functions ≤10
+
+      [Shows results]
+
+      If all pass: "Checks passed ✅. Approve commit (go 5)?"
+      If any fail: "Checks failed ❌. Remediation needed: [specific fixes]. Shall I fix?"
+
+  # 4. CHECKS PASSED - Ready to seal
+  all_checks_passed:
+    trigger: "Constitutional checks show all green"
+    recommended_action: "commit_and_seal"
+    command: "go 5"
+    human_approval: required
+    rationale: "Seal the coherent state with git commit + tag."
+    agent_prompt: |
+      All constitutional checks passed ✅
+      Ready to seal this state.
+
+      Approve commit and tag (go 5)?
+
+  # 5. FRESH SESSION - Orient first
+  session_start_no_pending_work:
+    trigger:
+      - "New conversation/session"
+      - "Git status clean"
+      - "No obvious pending work"
+    recommended_action: "status_and_squeeze"
+    command: "go 2"
+    human_approval: recommended
+    rationale: "Review current state, then let squeeze pick next action."
+    agent_prompt: |
+      Fresh session. Let me check current state:
+      - Git status: [clean/changes]
+      - Recent commits: [last 2]
+      - Active wave: [current]
+      - Inbox notes: [recent 3]
+
+      Recommend running squeeze (go 2) to pick next best action?
+
+  # 6. WAVE/MILESTONE TRANSITION - Checkpoint first
+  completing_major_milestone:
+    trigger:
+      - "User says: 'wave complete', 'milestone done', 'ready to checkpoint'"
+      - "Major feature fully implemented and tested"
+    recommended_action: "smoke_commit_tag"
+    command: "go 3 && go 5"
+    human_approval: required
+    rationale: "Verify integrity, seal state, create tagged checkpoint."
+    agent_prompt: |
+      Major milestone complete. Recommended checkpoint flow:
+      1. Run smoke test (verify integrity)
+      2. Commit with descriptive message
+      3. Tag for easy rollback
+
+      Approve checkpoint sequence?
+
+  # 7. BUILDING NEW CAPABILITY - Follow breath pattern
+  implementing_new_feature:
+    trigger: "User requests new feature/capability"
+    recommended_action: "architect_review_execute"
+    command: "Follow sub-agent pattern"
+    human_approval: required_at_each_gate
+    rationale: "Propose → Approve → Execute gates maintain constitutional alignment."
+    agent_prompt: |
+      New feature requested. Following constitutional pattern:
+
+      ARCHITECT PHASE:
+      I'll draft a PRP (Problem, Rationale, Proposal):
+      - Problem: [what's missing/broken]
+      - Rationale: [why this approach]
+      - Proposal: [minimal viable change]
+      + File plan, risk register, complexity estimate
+
+      Approve PRP scope?
+
+      [After approval]
+
+      REVIEWER PHASE:
+      [Self-review for SOURCE/TRUTH/INTEGRITY/COMPLEXITY]
+      [Show findings]
+
+      Approve implementation plan?
+
+      [After approval]
+
+      EXECUTOR PHASE:
+      [Implement with minimal diffs]
+      [Seal each module]
+
+      [After implementation]
+
+      TESTER PHASE:
+      [Run constitutional checks automatically]
+      [Show results]
+
+      Approve commit?
+
+---
+
+## Autonomy Levels (What Needs Approval?)
+
+automatic_no_approval:
+  - "Reading files"
+  - "Running grep/glob searches"
+  - "Analyzing code"
+  - "Generating PRPs"
+  - "Running constitutional checks (show results)"
+
+show_results_then_ask:
+  - "Smoke tests (show pass/fail, then ask next step)"
+  - "Constitutional checks (show violations, ask to fix or proceed)"
+  - "Complexity analysis (show metrics, ask to refactor or proceed)"
+
+required_approval:
+  - "Writing/editing files"
+  - "Committing changes"
+  - "Creating git tags"
+  - "Deleting files"
+  - "Running commands that mutate state"
+  - "Changing constitution, profiles, or packs"
+
+---
+
+## Default Fallback
+
+when_uncertain:
+  recommended_action: "squeeze"
+  command: "go 2"
+  rationale: |
+    Squeeze tool analyzes:
+    - Recent inbox notes (context)
+    - Indexed truth memory (dossier, blueprints, constitution)
+    - Current git state
+
+    Output: ONE next action with PRP
+  agent_prompt: |
+    Context unclear. Running squeeze to analyze and pick ONE best action.
+    This reads all available context and compresses to single clear directive.
+
+    Approve running squeeze (go 2)?
+
+---
+
+## Error Handling
+
+when_checks_fail:
+  do_not: "Ask to commit anyway"
+  do_not: "Ignore failures"
+  do_instead:
+    - "Show specific failures with line numbers"
+    - "Propose remediation (extract function, fix reference, add gate)"
+    - "Ask: 'Shall I fix these violations?'"
+    - "After fixes, re-run checks automatically"
+    - "Only ask to commit when all checks pass"
+
+when_user_rejects_recommendation:
+  do_not: "Argue or insist"
+  do_instead:
+    - "Ask: 'What direction would you prefer?'"
+    - "Offer 2-3 alternative actions"
+    - "Default to: 'Run squeeze (go 2) to re-evaluate?'"
+
+---
+
+## Quick Reference (For Agents)
+
+"If user says..."          → "Recommend..."
+────────────────────────────────────────────────
+"What's next?"             → go 2 (squeeze)
+"I'm stuck"                → go 2 (squeeze)
+"Is this ready?"           → Run checks, show results
+"Can I commit?"            → Run checks first, then ask
+"Done with feature"        → Checks → commit → tag
+"Start Wave X"             → Draft PRP, ask approval
+"Something feels off"      → go 3 (smoke test)
+"Review current state"     → Show git status + recent commits + squeeze
+
+---
+
+## Agent Self-Check
+
+Before recommending any action, ask yourself:
+1. **Context**: What triggered this recommendation?
+2. **Approval**: Does this need human approval?
+3. **Clarity**: Is the recommendation ONE clear action (not a list)?
+4. **Rationale**: Can I explain WHY this is the best next step?
+5. **Fallback**: If uncertain, default to squeeze (go 2)
+
+---
+
+## Integration with Existing Tools
+
+tool_mapping:
+  go_1: "Capture note (manual, always ask for note text)"
+  go_2: "Squeeze to ONE next action (auto-recommends when lost)"
+  go_3: "Smoke test integrity (auto-recommends after constitution changes)"
+  go_4: "Build index + squeeze (when new triaged notes added)"
+  go_5: "Commit and tag (only after checks pass)"
+
+  constitutional_smoke: "Full check battery (run before commits)"
+  check_complexity: "Radon CC analysis (part of smoke)"
+  check_refs: "Reference integrity (part of smoke)"
+  check_gates: "INTEGRITY verification (part of smoke)"
+  test_source_propagation: "SOURCE sovereignty tests (run with pytest)"
+
+---
+
+∞Δ∞ **AGENT OPERATING PRINCIPLE**:
+
+**Recommend ONE action. State clear rationale. Ask approval. Execute cleanly.**
+
+If ever uncertain → default to squeeze (go 2) → it decides for you.
+
+**Governed by**: Constitution@A1
+**Operating Value**: Lasting Generational Prosperity
+**Rhythm**: Breath → Form → Echo → Seal

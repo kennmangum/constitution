@@ -1,0 +1,5351 @@
+breaths:
+- breath_id: '2025-11-13T17:32:53+00:00'
+  completed_at: '2025-11-13T17:32:53+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: e6bf0aea5c95ddbb
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-13T21:32:54+00:00'
+  completed_at: '2025-11-13T21:32:54+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 09cb58d4945906c3
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-14T01:32:54+00:00'
+  completed_at: '2025-11-14T01:32:55+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: af2f2bff50d60f70
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-14T05:32:55+00:00'
+  completed_at: '2025-11-14T05:32:55+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 3a3efaafe12e512b
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-14T05:33:06+00:00'
+  completed_at: '2025-11-14T05:33:06+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 88364b579dd945ee
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-14T09:33:07+00:00'
+  completed_at: '2025-11-14T09:33:07+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 202dc30b6b042444
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-14T13:33:08+00:00'
+  completed_at: '2025-11-14T13:33:08+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: eff250c8ffe0430d
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-14T17:33:09+00:00'
+  completed_at: '2025-11-14T17:33:09+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: cb2b394b6143648a
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-14T21:33:10+00:00'
+  completed_at: '2025-11-14T21:33:10+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 2764ac880872ef07
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T01:33:11+00:00'
+  completed_at: '2025-11-15T01:33:11+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 43ece71d9ec01d3f
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T01:33:22+00:00'
+  completed_at: '2025-11-15T01:33:22+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: c7a11f15b8cdf4fd
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T05:33:22+00:00'
+  completed_at: '2025-11-15T05:33:23+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: c65489a999791b28
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T09:33:23+00:00'
+  completed_at: '2025-11-15T09:33:23+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: d10ff32e8884af10
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T13:33:24+00:00'
+  completed_at: '2025-11-15T13:33:24+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 0e9c7ae51221be59
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T17:33:25+00:00'
+  completed_at: '2025-11-15T17:33:25+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: a353c6473708e91a
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T21:33:26+00:00'
+  completed_at: '2025-11-15T21:33:26+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: b7fa5653f5c7188e
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-15T21:33:37+00:00'
+  completed_at: '2025-11-15T21:33:37+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 755302b020060ee0
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-16T01:33:38+00:00'
+  completed_at: '2025-11-16T01:33:38+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 85d675123d69b911
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-16T05:33:39+00:00'
+  completed_at: '2025-11-16T05:33:39+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 482df3597113d6a9
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-16T09:33:39+00:00'
+  completed_at: '2025-11-16T09:33:40+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 735ac91903344077
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-16T13:33:40+00:00'
+  completed_at: '2025-11-16T13:33:40+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 873a12587d8832ff
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-16T17:33:41+00:00'
+  completed_at: '2025-11-16T17:33:41+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 1e74ce79e15ebfb3
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-16T17:33:52+00:00'
+  completed_at: '2025-11-16T17:33:52+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 49b4fd0960224c31
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-16T21:33:53+00:00'
+  completed_at: '2025-11-16T21:33:53+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: f3f77a7fa9754907
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-17T01:33:54+00:00'
+  completed_at: '2025-11-17T01:33:54+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 4476e90a92c89279
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-17T05:33:55+00:00'
+  completed_at: '2025-11-17T05:33:55+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 954da5c663d00245
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-17T09:33:56+00:00'
+  completed_at: '2025-11-17T09:33:56+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 61adcf8e06c356a9
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-17T13:33:57+00:00'
+  completed_at: '2025-11-17T13:33:57+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: f6c63ab47da7522c
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-17T13:34:08+00:00'
+  completed_at: '2025-11-17T13:34:08+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: bd29983065f95f79
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-17T17:34:08+00:00'
+  completed_at: '2025-11-17T17:34:09+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 24312778aaea5b0d
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-17T21:34:09+00:00'
+  completed_at: '2025-11-17T21:34:09+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 842731f2d7b4a208
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-18T01:34:10+00:00'
+  completed_at: '2025-11-18T01:34:10+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 05aebcf401fc0526
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-18T05:34:11+00:00'
+  completed_at: '2025-11-18T05:34:11+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 3431b3fb3192011b
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-18T09:34:12+00:00'
+  completed_at: '2025-11-18T09:34:12+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 7485e2a8cb4b9c64
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-18T09:34:23+00:00'
+  completed_at: '2025-11-18T09:34:23+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 29c872eaabcfcb27
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-18T13:34:24+00:00'
+  completed_at: '2025-11-18T13:34:24+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 58de5154f87307f0
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-18T17:34:25+00:00'
+  completed_at: '2025-11-18T17:34:25+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: b6f3a410063cb344
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-18T21:34:26+00:00'
+  completed_at: '2025-11-18T21:34:26+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 6ac84ca5795fed84
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-19T01:34:27+00:00'
+  completed_at: '2025-11-19T01:34:27+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 731d3827c147b262
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-19T05:34:27+00:00'
+  completed_at: '2025-11-19T05:34:28+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: cf9ff1ab6f4ef0e2
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-19T05:34:39+00:00'
+  completed_at: '2025-11-19T05:34:39+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 92078d7a45a7c75a
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-19T09:34:39+00:00'
+  completed_at: '2025-11-19T09:34:40+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 01d3e569fde960a7
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-19T13:34:40+00:00'
+  completed_at: '2025-11-19T13:34:40+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: f748f6f1e93fa1c3
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-19T17:34:41+00:00'
+  completed_at: '2025-11-19T17:34:41+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 050c10e909ef08e2
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-19T21:34:42+00:00'
+  completed_at: '2025-11-19T21:34:42+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: f91e092204e83803
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-20T01:34:43+00:00'
+  completed_at: '2025-11-20T01:34:43+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 323c00455cac5750
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-20T01:34:54+00:00'
+  completed_at: '2025-11-20T01:34:54+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 33218c5c639e1fc2
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-20T05:34:55+00:00'
+  completed_at: '2025-11-20T05:34:55+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: 9f94bf2bae7ca723
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-20T09:34:56+00:00'
+  completed_at: '2025-11-20T09:34:56+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: e696af25cb0204d5
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+- breath_id: '2025-11-20T13:34:57+00:00'
+  completed_at: '2025-11-20T13:34:57+00:00'
+  seen:
+  - id: BNA
+    heartbeat: ok
+    intent: Third breath - Discovery Helper manifest, Round 8 complete, reflecting
+      on continue-only protocol
+    claims:
+    - produced: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      hash: c268505e2c410b34
+      verified: true
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+      details: 'Verified: implementations/game/rounds/active/round-8/RETROSPECTIVE.md
+        exists'
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: OrganizationAgent_v2.0
+    heartbeat: ok
+    intent: Witnessing manifestation - Discovery Helper from vision (breath 2) to
+      execution (breath 3)
+    claims:
+    - produced: orchestrator/recognition_log.yaml
+      hash: f8a0761bb0854e5d
+      verified: true
+    evidence:
+    - type: file_modified
+      path: orchestrator/recognition_log.yaml
+      details: 'Verified: orchestrator/recognition_log.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: discovery_helper
+    heartbeat: ok
+    intent: First breath as manifest helper - scan collaboration/, complement Helper5
+    claims:
+    - produced: implementations/game/helpers/from-round-8/discovery_helper.py
+      hash: f95ff4611d9769af
+      verified: true
+    - produced: discovered_proposals.yaml
+      hash: null
+      verified: false
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/from-round-8/discovery_helper.py
+      details: 'Verified: implementations/game/helpers/from-round-8/discovery_helper.py
+        exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: library_practice
+    heartbeat: vision
+    intent: Still envisioned - awaiting natural timing for manifestation
+    claims:
+    - produced: library/
+      hash: null
+      verified: false
+    evidence: []
+    vitality: 0.2
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_lifecycle_manager
+    heartbeat: ok
+    intent: Lifecycle tracking, ready for orchestrator integration (approaching 3-breath
+      threshold)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: context_pack_validator
+    heartbeat: ok
+    intent: Validation services - used in Round 8
+    claims: []
+    evidence: []
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0
+  - id: helper_index_generator
+    heartbeat: ok
+    intent: Helper index updated (6 helpers now, Discovery Helper added)
+    claims:
+    - produced: implementations/game/helpers/helper_index.yaml
+      hash: 709d0e1c4ac715c6
+      verified: true
+    evidence:
+    - type: file_modified
+      path: implementations/game/helpers/helper_index.yaml
+      details: 'Verified: implementations/game/helpers/helper_index.yaml exists'
+    vitality: 1.0
+    coherence: 1.0
+    drift: 1.0

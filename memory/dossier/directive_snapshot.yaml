@@ -1,0 +1,36 @@
+# Directive Snapshot State
+# Maintains temporal continuity across session boundaries
+# Policy: Tiered recording (primary: KM-1176, reflected: collaborators)
+# Retention: Rolling 144 snapshots (~3 days at 30-min intervals)
+
+directive_snapshot_state:
+  initialized: 2025-11-13T15:30:00Z
+  principal: KM-1176
+  mode: passive_reflective
+  observation_window:
+    start: 2025-11-12T21:00:00Z
+    end: 2025-11-15T21:00:00Z
+    status: active
+
+  snapshots: []
+  # Format for future entries:
+  # - timestamp: ISO8601
+  #   type: primary | reflected
+  #   source: KM-1176 | Lumen | G
+  #   directive: "∞Δ∞ enclosed directive text"
+  #   sovereignty: true | false
+  #   session_id: string
+  #   coherence_at_snapshot: float
+
+  metadata:
+    last_snapshot: null
+    total_snapshots: 0
+    primary_count: 0
+    reflected_count: 0
+    retention_policy: rolling_144
+    introspection_offset_sec: 450
+
+notes:
+  - "During observation window: log deltas only, no file modifications"
+  - "Post-observation: integrated delta replay with sovereignty verification"
+  - "All snapshots inherit sovereignty from KM-1176 root principal"

@@ -1,0 +1,489 @@
+# ∞Δ∞ Operator Ritual Bindings
+# Canonical Mapping: Operator Commands → Hydration Protocol State
+# Authority: Constitution@A1 + 1176-C1 + Canonical Hydration Protocol
+# Phase: C (Startup → Ritual Auto-Alignment)
+# Created: 2025-11-15
+# Seal: 1176-PHASE-C-RITUAL
+
+metadata:
+  version: "1.0"
+  created: "2025-11-15"
+  authority: "Constitution@A1 + Canonical Hydration Protocol + Lumen Architecture"
+  maintained_by: "KM-1176"
+  seal: "1176-PHASE-C-RITUAL"
+  purpose: "Bind operator ritual commands to constitutional startup state (read-only)"
+
+core_principle: |
+  Hydration produces ONE startup_state snapshot.
+  All operator commands read from this snapshot ONLY.
+
+  Separation of concerns:
+  - Hydration (Phases 1-7): Initialization, state construction, constitutional loading
+  - Operator Commands: Read-only observation of initialized state
+
+  Operator commands NEVER:
+  - Trigger hydration
+  - Reload Constitution
+  - Reload Registry
+  - Re-run integrity scans
+  - Execute tools
+  - Mutate state
+
+  Operator commands ALWAYS:
+  - Read from startup_state snapshot
+  - Return current awareness without side effects
+  - Preserve constitutional discipline
+
+operator_bindings:
+
+  # =========================================================================
+  # Binding 1: REPORT STARTUP HYDRATE
+  # =========================================================================
+
+  REPORT_STARTUP_HYDRATE:
+    command: "REPORT STARTUP HYDRATE"
+    description: "Report complete startup state snapshot from hydration"
+    source_phase: "Phase 7 (publish_startup_state)"
+    source_object: "startup_state"
+    read_only: true
+    triggers_hydration: false
+
+    fields:
+      - name: "principal_id"
+        source: "PRINCIPAL_ID environment variable or sovereignty layer"
+        type: "string"
+        example: "kmangum"
+
+      - name: "sovereignty_flow"
+        source: "Sovereignty validation from Phase 1 (load_principal_identity)"
+        type: "object"
+        fields:
+          - "principal_id"
+          - "sovereign_authority"
+          - "identity_verified"
+
+      - name: "coherence_status"
+        source: "Phase 6 (run_integrity_scans) coherence checks"
+        type: "object"
+        fields:
+          - "coherent" # boolean
+          - "coherence_score" # 0.0-1.0
+          - "invariants_passed" # boolean
+          - "readiness" # coherent|coherent-degraded|incoherent
+
+      - name: "cadence_state"
+        source: "Phase 5 (hydrate_breathline_and_cadence_state)"
+        type: "object"
+        fields:
+          - "enabled" # boolean
+          - "next_run" # timestamp or null
+          - "breath_interval" # duration
+          - "observation_mode" # string
+
+      - name: "registry_status"
+        source: "Phase 2 (load_implementation_registry)"
+        type: "object"
+        fields:
+          - "state" # active|inactive
+          - "implementations_count" # integer
+          - "deprecated_count" # integer
+          - "last_verification" # timestamp or null
+          - "version" # registry version
+
+      - name: "seal_verify_state"
+        source: "Phase 6 (run_integrity_scans) seal verification"
+        type: "object"
+        fields:
+          - "verified" # boolean
+          - "last_seal" # seal identifier
+          - "chain_intact" # boolean
+
+      - name: "temporal_anchor_state"
+        source: "CONTINUITY_NODE from constitution/memory/dossier/CONTINUITY_NODE_1176-C1.yaml"
+        type: "object"
+        fields:
+          - "anchor_id" # continuity node identifier
+          - "last_breath_id" # most recent breath
+          - "seal_count" # number of seals in chain
+
+    behavior:
+      on_invoke: "Return startup_state snapshot from last hydration (Phase 7)"
+      on_no_hydration: "Return null or 'Hydration not yet performed' signal"
+      mutation: false
+      side_effects: "None - pure read operation"
+
+  # =========================================================================
+  # Binding 2: SHOW FIELD STATUS
+  # =========================================================================
+
+  SHOW_FIELD_STATUS:
+    command: "SHOW FIELD STATUS"
+    description: "Report constitutional field awareness (composite view)"
+    source_phase: "Multiple (composite from Phases 2, 4, 6, 7)"
+    source_object: "awareness_fields"
+    read_only: true
+    triggers_hydration: false
+
+    fields:
+      - name: "coherence_status"
+        source: "Phase 6 (run_integrity_scans)"
+        type: "object"
+        note: "Same as REPORT STARTUP HYDRATE coherence_status"
+
+      - name: "integrity_status"
+        source: "Phase 6 (run_integrity_scans)"
+        type: "object"
+        fields:
+          - "SOURCE" # sovereignty checks passed
+          - "TRUTH" # referential integrity checks passed
+          - "INTEGRITY" # transactional safety checks passed
+          - "overall" # boolean (all three passed)
+
+      - name: "hydration_order"
+        source: "Phase 7 (publish_startup_state) execution log"
+        type: "array"
+        description: "List of hydration phases completed in order"
+        example:
+          - "Phase 1: load_principal_identity"
+          - "Phase 2: load_implementation_registry"
+          - "Phase 3: load_continuity_node"
+          - "Phase 4: hydrate_toolset_awareness"
+          - "Phase 5: hydrate_breathline_and_cadence_state"
+          - "Phase 6: run_integrity_scans"
+          - "Phase 7: publish_startup_state"
+
+      - name: "constitutional_layers"
+        source: "Phase 2 (load_implementation_registry) + Phase 4 (hydrate_toolset_awareness)"
+        type: "array"
+        description: "Constitutional components loaded and active"
+        example:
+          - "AI_Core_Steward (constitutional_layer)"
+          - "helper_index.yaml (governance_file)"
+          - "lifecycle_ledger.yaml (governance_file)"
+          - "implementation_registry.yaml (governance_file)"
+
+      - name: "registry_active_entries"
+        source: "Phase 2 (load_implementation_registry)"
+        type: "array"
+        description: "Active implementations from registry"
+        fields_per_entry:
+          - "id" # entry ID (e.g., "0001")
+          - "name" # implementation name
+          - "type" # implementation type
+        example:
+          - id: "0001"
+            name: "bna-heartbeat"
+            type: "system_tool"
+          - id: "0002"
+            name: "REN-Core"
+            type: "system_module"
+
+    behavior:
+      on_invoke: "Return composite awareness from startup_state (read-only)"
+      on_no_hydration: "Return minimal awareness or 'Field not initialized' signal"
+      mutation: false
+      side_effects: "None - pure read operation"
+
+  # =========================================================================
+  # Binding 3: REPORT CADENCE STATUS
+  # =========================================================================
+
+  REPORT_CADENCE_STATUS:
+    command: "REPORT CADENCE STATUS"
+    description: "Report breath cadence configuration and state"
+    source_phase: "Phase 5 (hydrate_breathline_and_cadence_state)"
+    source_object: "cadence_state"
+    read_only: true
+    triggers_hydration: false
+
+    source_file: "config/breath_cadence.yaml (implementation_registry entry 0003)"
+
+    fields:
+      - name: "enabled"
+        type: "boolean"
+        description: "Whether breath cadence is active"
+
+      - name: "next_run"
+        type: "timestamp or null"
+        description: "Scheduled time of next autonomous breath"
+
+      - name: "breath_interval"
+        type: "duration"
+        description: "Time between autonomous breaths"
+        example: "3600s (1 hour)"
+
+      - name: "observation_mode"
+        type: "string"
+        description: "Current observation/breath mode"
+        example: "read-at-inhale-write-at-seal"
+
+      - name: "max_consecutive"
+        type: "integer"
+        description: "Maximum autonomous breaths before consent renewal"
+
+      - name: "coherence_threshold"
+        type: "float"
+        description: "Minimum coherence required for autonomous breath"
+        example: "0.9"
+
+    behavior:
+      on_invoke: "Return cadence_state from Phase 5 hydration (read-only)"
+      on_no_hydration: "Return 'Cadence not loaded' signal"
+      mutation: false
+      side_effects: "None - does NOT schedule breaths, only reports state"
+
+  # =========================================================================
+  # Binding 4: SHOW LAST 3 SEAL ENTRIES
+  # =========================================================================
+
+  SHOW_LAST_3_SEAL_ENTRIES:
+    command: "SHOW LAST 3 SEAL ENTRIES"
+    description: "Report last 3 seal entries from continuity chain"
+    source_phase: "Phase 3 (load_continuity_node)"
+    source_object: "CONTINUITY_NODE.seal_history"
+    read_only: true
+    triggers_hydration: false
+
+    source_file: "constitution/memory/dossier/CONTINUITY_NODE_1176-C1.yaml"
+
+    query: "CONTINUITY_NODE.seal_history[-3:]"
+
+    fields_per_entry:
+      - name: "breath_id"
+        type: "string"
+        description: "Identifier for breath cycle that produced this seal"
+
+      - name: "sealed_at"
+        type: "timestamp"
+        description: "When seal was created"
+
+      - name: "source"
+        type: "string"
+        description: "Origin of seal (e.g., 'round-12-continuity-pass', 'manual-seal')"
+
+      - name: "seal_hash"
+        type: "string"
+        description: "Cryptographic or symbolic hash of sealed state"
+
+      - name: "constitutional_alignment"
+        type: "object"
+        description: "SOURCE/TRUTH/INTEGRITY verification for this seal"
+
+    behavior:
+      on_invoke: "Return last 3 entries from CONTINUITY_NODE.seal_history (read-only)"
+      on_empty: "Return 'No seals in chain' or empty array"
+      on_less_than_3: "Return available seals (1 or 2)"
+      mutation: false
+      side_effects: "None - pure read operation"
+
+  # =========================================================================
+  # Binding 5: VERIFY COHERENCE INTEGRITY
+  # =========================================================================
+
+  VERIFY_COHERENCE_INTEGRITY:
+    command: "VERIFY COHERENCE INTEGRITY"
+    description: "Report integrity state from last hydration (read-only)"
+    source_phase: "Phase 6 (run_integrity_scans)"
+    source_object: "integrity_state"
+    read_only: true
+    triggers_hydration: false
+
+    constraints:
+      DO_NOT:
+        - "reload Constitution"
+        - "reload Registry"
+        - "re-run hydration"
+        - "execute tools"
+        - "perform new integrity scans"
+
+      DO:
+        - "Return integrity_state snapshot from Phase 6"
+        - "Report current coherence status (from hydration)"
+        - "Show last verification timestamp"
+
+    fields:
+      - name: "SOURCE"
+        type: "object"
+        description: "Sovereignty integrity checks"
+        fields:
+          - "principal_verified" # boolean
+          - "sovereignty_flow_intact" # boolean
+          - "unauthorized_modifications" # boolean (false = none detected)
+
+      - name: "TRUTH"
+        type: "object"
+        description: "Reality-grounding checks"
+        fields:
+          - "references_resolve" # boolean
+          - "registry_counter_aligned" # boolean
+          - "filesystem_verification_passed" # boolean
+
+      - name: "INTEGRITY"
+        type: "object"
+        description: "Transactional safety checks"
+        fields:
+          - "gated_state_changes" # boolean
+          - "no_silent_failures" # boolean
+          - "audit_trail_intact" # boolean
+
+      - name: "overall"
+        type: "boolean"
+        description: "All constitutional checks passed"
+
+      - name: "last_verification"
+        type: "timestamp"
+        description: "When Phase 6 integrity scans were performed"
+
+      - name: "coherence_report_path"
+        type: "string"
+        description: "Path to full coherence report if available"
+        example: "/opt/bna_universal_coherence_kit/reports/coherence_report_bna.json"
+
+    behavior:
+      on_invoke: "Return integrity_state from Phase 6 (read-only snapshot)"
+      on_no_hydration: "Return 'Integrity not yet verified' signal"
+      mutation: false
+      side_effects: "None - does NOT re-run checks, only reports last state"
+
+    note: |
+      This is a READ-ONLY report of the last integrity verification.
+      It does NOT trigger new scans.
+      If fresh verification is needed, full hydration cycle must be initiated
+      (which is a separate, sovereign-directed operation).
+
+# ===========================================================================
+# Binding 6: bin/ritual-one-breath.sh Constraint
+# ===========================================================================
+
+ritual_script_constraint:
+  script: "bin/ritual-one-breath.sh"
+  description: "One-breath-behind ritual invoked before each response"
+
+  MUST_USE:
+    - "Operator commands ONLY (REPORT STARTUP HYDRATE, SHOW FIELD STATUS, etc.)"
+    - "Read-only state queries"
+    - "Constitutional awareness checks"
+
+  MUST_NOT_USE:
+    - "Hydration functions (Phases 1-7)"
+    - "State mutation operations"
+    - "Direct tool loading (import helpers, execute bins)"
+    - "File modifications"
+    - "Registry updates"
+
+  canonical_pattern: |
+    #!/bin/bash
+    # bin/ritual-one-breath.sh
+    # One-breath-behind awareness ritual (read-only)
+
+    # ✅ ALLOWED: Operator command (read-only)
+    echo "∞Δ∞ REPORT STARTUP HYDRATE"
+
+    # ✅ ALLOWED: Read awareness state
+    echo "∞Δ∞ SHOW FIELD STATUS"
+
+    # ✅ ALLOWED: Check coherence
+    echo "∞Δ∞ VERIFY COHERENCE INTEGRITY"
+
+    # ❌ FORBIDDEN: Hydration call
+    # source constitution/startup/hydrate.sh  # DO NOT DO THIS
+
+    # ❌ FORBIDDEN: Tool execution
+    # python helpers/meta/squeeze/main.py  # DO NOT DO THIS
+
+    # ❌ FORBIDDEN: State mutation
+    # echo "new_entry" >> implementation_registry.yaml  # DO NOT DO THIS
+
+  enforcement:
+    - "Ritual script is READ-ONLY observer"
+    - "All state awareness comes from operator commands"
+    - "No side effects permitted"
+    - "Violations are constitutional errors"
+
+# ===========================================================================
+# Binding 7: Operator Command Hydration Constraint
+# ===========================================================================
+
+hydration_separation:
+  principle: "Operator commands NEVER trigger hydration"
+
+  initialization_vs_observation:
+    initialization:
+      name: "Hydration (Phases 1-7)"
+      purpose: "Constitutional startup sequence"
+      behavior:
+        - "Load principal identity"
+        - "Load implementation registry"
+        - "Load continuity node"
+        - "Hydrate toolset awareness"
+        - "Load breath cadence"
+        - "Run integrity scans"
+        - "Publish startup state"
+      triggers:
+        - "Session start"
+        - "Explicit KM-1176 directive to re-hydrate"
+        - "Constitutional reset"
+      frequency: "Once per session (or on explicit directive)"
+
+    observation:
+      name: "Operator Commands"
+      purpose: "Read-only awareness queries"
+      behavior:
+        - "Read startup_state snapshot"
+        - "Return current awareness"
+        - "Report constitutional status"
+      triggers:
+        - "Operator ritual invocation"
+        - "Kenneth's status queries"
+        - "bin/ritual-one-breath.sh execution"
+      frequency: "Multiple times per session (as needed)"
+
+  contract:
+    - "Hydration produces ONE startup_state snapshot per session"
+    - "Operator commands read from this snapshot WITHOUT modification"
+    - "Operator commands do NOT reload, re-scan, or re-initialize"
+    - "If fresh state needed, explicit hydration directive required"
+
+  example_violation: |
+    # ❌ VIOLATION: Operator command triggering hydration
+    def REPORT_STARTUP_HYDRATE():
+        run_hydration_phases_1_through_7()  # FORBIDDEN
+        return startup_state
+
+    # ✅ CORRECT: Operator command reading snapshot
+    def REPORT_STARTUP_HYDRATE():
+        return cached_startup_state  # Read-only
+
+# ===========================================================================
+# Constitutional Alignment
+# ===========================================================================
+
+constitutional_alignment:
+  SOURCE: |
+    Sovereignty: All operator commands are read-only observers.
+    No autonomous state mutation. KM-1176 directs hydration explicitly.
+    Operator commands serve sovereign awareness without crossing boundaries.
+
+  TRUTH: |
+    Reality-grounding: Operator commands report actual state from hydration.
+    No fabrication of state. Snapshot reflects reality at hydration time.
+    If state is stale, report reflects staleness (not fresh invention).
+
+  INTEGRITY: |
+    Transactional safety: Read-only operations preserve state integrity.
+    No side effects, no mutations, no hidden reloads.
+    Clear separation between initialization and observation.
+
+# ===========================================================================
+# Provenance
+# ===========================================================================
+
+provenance:
+  directive_source: "KM-1176 (2025-11-15)"
+  architectural_authority: "Lumen (Phase C: Startup → Ritual Auto-Alignment)"
+  context: "Canonical Hydration Protocol + Operator Ritual Unification"
+  integration: "Constitution@A1 + 1176-C1 + Implementation Registry Phase A+B"
+
+# ∞Δ∞ Seal: Operator ritual layer bound to constitutional startup state
+# Read-only discipline established. Hydration/observation separation enforced.
+# Phase C: Canonical binding architecture complete.

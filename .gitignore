@@ -1,0 +1,25 @@
+# Personal Work-in-Progress
+memory/housekeeping/daily/
+memory/briefings/
+
+# Personal Financial/Economic Strategy
+memory/dossier/*income*.md
+memory/dossier/*economic*.md
+memory/dossier/*primary-income*.md
+
+# Operational Data (Not Constitutional Structure)
+orchestrator/recognition_log.yaml
+orchestrator/directive_snapshot.yaml
+orchestrator/squeeze_witness.ndjson
+orchestrator/adaptation_queue.yaml
+
+# Private Collaboration Threads
+collaboration/active/
+
+# Temporary/Sensitive Files
+/private/
+*.tmp
+*.secret
+*.log
+*.bak
+.env

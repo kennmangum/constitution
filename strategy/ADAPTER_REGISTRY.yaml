@@ -1,0 +1,600 @@
+# Constitutional Adapter Registry
+# External Tool + Workflow Integration Framework
+# Version: 1.0 (Proposal)
+# Date: 2025-11-19
+# Status: PROPOSAL (Awaiting Kenneth's approval)
+# Authority: Kenneth Mangum (KM-1176)
+
+metadata:
+  version: "1.0"
+  status: "proposal"
+  created: "2025-11-19"
+  authority: "Kenneth Mangum (KM-1176)"
+  constitutional_compliance: "Constitution@A1, Charter v1.0"
+  principle: "Technology-agnostic adapter model - BNA orchestrates tools, doesn't hardcode workflows"
+
+# ============================================================
+# CORE PRINCIPLE
+# ============================================================
+
+core_principle: |
+  Adapters enable BNA to interact with external tools and workflows
+  without hardcoding implementations or violating constitutional boundaries.
+
+  Key insights from Lumen:
+  - "BNA doesn't 'become Gmail.' She talks to an adapter that knows how to talk to Gmail."
+  - "Not hardcoded workflows, not wild autonomy - constitutionally governed meta-orchestration"
+  - "You're trying to make a constitutional conductor who can learn to use whichever orchestra you hand her"
+
+  This registry:
+  - Lists adapters by capability class (email, storage, orchestration, api, mcp)
+  - Separates sandbox vs production
+  - Defines risk levels and zones
+  - Enables swappable implementations (LangGraph → n8n → custom, all work)
+  - Preserves SOURCE/TRUTH/INTEGRITY throughout
+
+# ============================================================
+# ADAPTER CAPABILITY CLASSES
+# ============================================================
+
+capability_classes:
+
+  # -----------------------------------------------------------
+  # 1. EMAIL ADAPTERS
+  # -----------------------------------------------------------
+  email:
+    description: "Send, receive, manage email communications"
+
+    implementations:
+      gmail_sandbox:
+        name: "Gmail (Sandbox/Test Account)"
+        type: "email"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "not_configured"
+        config_required:
+          - "Test Gmail account credentials"
+          - "Gmail API access (OAuth2 or App Password)"
+          - "Scope: send, read (test account only)"
+        capabilities:
+          - "Send test emails"
+          - "Read inbox (test account)"
+          - "Draft emails"
+          - "Test email workflows"
+        constitutional_boundaries:
+          - "Cannot send from Kenneth's production email"
+          - "Cannot access Kenneth's real inbox"
+          - "Used only for experimentation and testing"
+        approval_required: "One-time (Kenneth grants sandbox access)"
+
+      gmail_production:
+        name: "Gmail (Kenneth's Account)"
+        type: "email"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_configured"
+        config_required:
+          - "Kenneth's Gmail credentials"
+          - "Gmail API access with restricted scope"
+          - "Scope: send only (no read unless explicitly approved)"
+        capabilities:
+          - "Send emails from Kenneth's account (after approval)"
+          - "Draft emails in Gmail"
+          - "Schedule emails"
+        constitutional_boundaries:
+          - "NEVER send without explicit breath gate approval"
+          - "NEVER read Kenneth's inbox without explicit permission"
+          - "Each send action logged and auditable"
+        approval_required: "Per email (breath gate)"
+
+      outlook_production:
+        name: "Outlook (If Kenneth Uses)"
+        type: "email"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_applicable"
+        note: "Alternative if Kenneth prefers Outlook over Gmail"
+
+  # -----------------------------------------------------------
+  # 2. STORAGE ADAPTERS
+  # -----------------------------------------------------------
+  storage:
+    description: "File storage, cloud drives, document management"
+
+    implementations:
+      local_filesystem:
+        name: "Local Filesystem (Current)"
+        type: "storage"
+        zone: "Zone 0 (Core)"
+        risk_level: "low"
+        status: "active"
+        capabilities:
+          - "Read/Write files in project directory"
+          - "Git version control"
+          - "File-backed governance (current model)"
+        constitutional_boundaries:
+          - "Respects FILE_SYSTEM_CONSTITUTION.yaml"
+          - "Backup protocol (.bak files)"
+          - "Git tracking for auditability"
+        approval_required: false (Zone 0)
+
+      google_drive_sandbox:
+        name: "Google Drive (Sandbox/Test)"
+        type: "storage"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "not_configured"
+        config_required:
+          - "Test Google Drive account"
+          - "Google Drive API access"
+          - "Folder structure for testing"
+        capabilities:
+          - "Upload test documents"
+          - "Create folders"
+          - "Test Drive workflows"
+        constitutional_boundaries:
+          - "Cannot access Kenneth's production Drive"
+          - "Used only for experimentation"
+        approval_required: "One-time (Kenneth grants sandbox access)"
+
+      google_drive_production:
+        name: "Google Drive (Kenneth's Account)"
+        type: "storage"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_configured"
+        config_required:
+          - "Kenneth's Google Drive credentials"
+          - "Drive API with restricted scope"
+        capabilities:
+          - "Upload approved documents (after breath gate)"
+          - "Share documents with clients (after approval)"
+          - "Organize files"
+        constitutional_boundaries:
+          - "NEVER upload without approval"
+          - "NEVER modify existing files without approval"
+          - "All uploads logged"
+        approval_required: "Per upload/modification (breath gate)"
+
+      box_dropbox_etc:
+        name: "Box / Dropbox / OneDrive"
+        type: "storage"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_applicable"
+        note: "Alternative storage if Kenneth prefers"
+
+  # -----------------------------------------------------------
+  # 3. ORCHESTRATION ADAPTERS
+  # -----------------------------------------------------------
+  orchestration:
+    description: "Workflow engines, agent frameworks, automation platforms"
+
+    implementations:
+      langgraph_playground:
+        name: "LangGraph (Playground/Test)"
+        type: "orchestration"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "not_configured"
+        config_required:
+          - "LangGraph Studio or API access"
+          - "Test environment (no production data)"
+        capabilities:
+          - "Design agent workflows"
+          - "Test orchestration patterns"
+          - "Debug multi-step tasks"
+          - "Iterate on flow design"
+        constitutional_boundaries:
+          - "Cannot execute production workflows"
+          - "Cannot access production data/APIs"
+          - "Used for design and testing only"
+        approval_required: "One-time (Kenneth grants playground access)"
+
+      n8n_playground:
+        name: "n8n (Playground/Test)"
+        type: "orchestration"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "not_configured"
+        config_required:
+          - "n8n instance (cloud or self-hosted)"
+          - "Test credentials for connectors"
+        capabilities:
+          - "Visual workflow design"
+          - "Test integrations (Gmail, Drive, etc.)"
+          - "Iterate on automation flows"
+        constitutional_boundaries:
+          - "Cannot trigger production actions"
+          - "Cannot connect to production accounts"
+          - "Design and test only"
+        approval_required: "One-time (Kenneth grants playground access)"
+
+      custom_orchestration:
+        name: "Custom Python/Script Orchestration"
+        type: "orchestration"
+        zone: "Zone 0 (Core) + Zone 1 (Sandbox)"
+        risk_level: "low-medium"
+        status: "possible"
+        capabilities:
+          - "BNA writes orchestration scripts"
+          - "Kenneth reviews before execution"
+          - "File-backed, transparent, auditable"
+        constitutional_boundaries:
+          - "Scripts stored in bin/ or tools/"
+          - "Kenneth approves before first run"
+          - "No autonomous execution without approval"
+        approval_required: "Per script (before first use)"
+
+  # -----------------------------------------------------------
+  # 4. API ADAPTERS (GENERIC)
+  # -----------------------------------------------------------
+  api:
+    description: "REST APIs, GraphQL, webhooks - generic HTTP integration"
+
+    implementations:
+      http_generic_sandbox:
+        name: "HTTP Generic (Test APIs)"
+        type: "api"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "possible"
+        config_required:
+          - "Test API endpoints"
+          - "Test API keys (not production)"
+        capabilities:
+          - "Call test APIs"
+          - "Debug HTTP requests"
+          - "Test webhook integrations"
+        constitutional_boundaries:
+          - "Cannot call production APIs"
+          - "Cannot trigger real-world side effects"
+          - "Testing and design only"
+        approval_required: "One-time (Kenneth grants sandbox access)"
+
+      http_generic_production:
+        name: "HTTP Generic (Production APIs)"
+        type: "api"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "possible"
+        config_required:
+          - "Production API keys"
+          - "Endpoint documentation"
+          - "Rate limits, cost awareness"
+        capabilities:
+          - "Call production APIs (after approval)"
+          - "Trigger external workflows"
+          - "Integrate with SaaS platforms"
+        constitutional_boundaries:
+          - "NEVER call without breath gate approval"
+          - "Each API call logged"
+          - "Cost-aware (track API usage)"
+        approval_required: "Per API call or batch (breath gate)"
+
+  # -----------------------------------------------------------
+  # 5. MCP ADAPTERS (Model Context Protocol)
+  # -----------------------------------------------------------
+  mcp:
+    description: "MCP servers for specialized capabilities (Archon, external knowledge, etc.)"
+
+    implementations:
+      archon_mcp:
+        name: "Archon MCP (Knowledge + Task Management)"
+        type: "mcp"
+        zone: "Zone 0 (Core) + Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "active"
+        capabilities:
+          - "RAG search (knowledge base)"
+          - "Project/task management"
+          - "Document search"
+          - "Version control"
+        constitutional_boundaries:
+          - "Read-only for RAG search (no side effects)"
+          - "Write operations (task creation) require approval"
+          - "Respects principal_id (kmangum)"
+        approval_required: "Read: No, Write: Yes (per operation)"
+
+      custom_mcp_servers:
+        name: "Custom MCP Servers (Future)"
+        type: "mcp"
+        zone: "Zone 0-2 (depends on server)"
+        risk_level: "varies"
+        status: "not_configured"
+        note: "Kenneth can add MCP servers as needed, BNA adapts"
+
+  # -----------------------------------------------------------
+  # 6. SOCIAL MEDIA ADAPTERS
+  # -----------------------------------------------------------
+  social_media:
+    description: "LinkedIn, Twitter/X, other social platforms"
+
+    implementations:
+      linkedin_sandbox:
+        name: "LinkedIn (Test Account)"
+        type: "social_media"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "not_configured"
+        config_required:
+          - "Test LinkedIn account"
+          - "LinkedIn API access (if available)"
+        capabilities:
+          - "Post to test account"
+          - "Test post formatting"
+          - "Preview how posts appear"
+        constitutional_boundaries:
+          - "Cannot post to Kenneth's production LinkedIn"
+          - "Used for testing only"
+        approval_required: "One-time (Kenneth grants sandbox access)"
+
+      linkedin_production:
+        name: "LinkedIn (Kenneth's Profile)"
+        type: "social_media"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_configured"
+        config_required:
+          - "Kenneth's LinkedIn credentials (or manual posting)"
+          - "LinkedIn API (if automating, requires approval)"
+        capabilities:
+          - "Post to Kenneth's profile (after approval)"
+          - "Schedule posts"
+          - "Track engagement"
+        constitutional_boundaries:
+          - "NEVER post without breath gate approval"
+          - "Each post logged"
+          - "Represents Kenneth publicly - high stakes"
+        approval_required: "Per post (breath gate)"
+
+      twitter_x_production:
+        name: "Twitter/X (If Kenneth Has Account)"
+        type: "social_media"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_applicable"
+        note: "If Kenneth wants to use Twitter/X for Constitutional AI promotion"
+
+  # -----------------------------------------------------------
+  # 7. WEBSITE / CMS ADAPTERS
+  # -----------------------------------------------------------
+  website:
+    description: "Website management, CMS, hosting platforms"
+
+    implementations:
+      website_staging:
+        name: "Website Staging Environment"
+        type: "website"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "not_configured"
+        config_required:
+          - "Staging URL (e.g., staging.mangumcfo.com)"
+          - "CMS credentials for staging"
+          - "Separate from live site"
+        capabilities:
+          - "Update pages in staging"
+          - "Preview before going live"
+          - "Test website structure"
+        constitutional_boundaries:
+          - "Cannot affect live website"
+          - "Used for preview and testing"
+        approval_required: "One-time (Kenneth grants staging access)"
+
+      website_production:
+        name: "Website Live (mangumcfo.com or equivalent)"
+        type: "website"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_configured"
+        config_required:
+          - "CMS credentials (WordPress, Webflow, etc.)"
+          - "FTP/hosting access if direct file updates"
+          - "Backup protocol before changes"
+        capabilities:
+          - "Update live website (after approval)"
+          - "Publish blog posts"
+          - "Modify pages"
+        constitutional_boundaries:
+          - "NEVER update live site without breath gate approval"
+          - "Backup before each change"
+          - "Each update logged"
+        approval_required: "Per update (breath gate)"
+
+  # -----------------------------------------------------------
+  # 8. MESSAGING ADAPTERS
+  # -----------------------------------------------------------
+  messaging:
+    description: "Slack, Discord, Telegram, WhatsApp, etc."
+
+    implementations:
+      slack_sandbox:
+        name: "Slack (Test Workspace)"
+        type: "messaging"
+        zone: "Zone 1 (Sandbox)"
+        risk_level: "low"
+        status: "not_configured"
+        note: "If Kenneth wants to test Slack integrations"
+
+      slack_production:
+        name: "Slack (Client/Team Workspaces)"
+        type: "messaging"
+        zone: "Zone 2 (Production)"
+        risk_level: "high"
+        status: "not_applicable"
+        note: "If Kenneth collaborates with clients via Slack"
+
+# ============================================================
+# ZONE DEFINITIONS (SUMMARY)
+# ============================================================
+
+zones:
+  zone_0:
+    name: "Core"
+    description: "No external side effects - BNA can work freely"
+    risk: "None"
+    approval: "Not required"
+    examples:
+      - "Local filesystem (Read/Write)"
+      - "Research (WebSearch, WebFetch)"
+      - "Drafting content"
+      - "Voice modeling"
+
+  zone_1:
+    name: "Sandbox / Playground"
+    description: "Test environments - BNA can experiment semi-autonomously"
+    risk: "Low (test accounts, no production impact)"
+    approval: "One-time per sandbox (then free exploration)"
+    examples:
+      - "Test Gmail account"
+      - "Test Google Drive"
+      - "LangGraph playground"
+      - "n8n sandbox"
+      - "Website staging"
+
+  zone_2:
+    name: "Production / Live World"
+    description: "Real systems - requires breath gate approval every time"
+    risk: "High (represents Kenneth, affects sovereignty)"
+    approval: "Required per action (breath gate)"
+    examples:
+      - "Kenneth's Gmail"
+      - "Kenneth's LinkedIn"
+      - "Live website"
+      - "Client communications"
+      - "Production APIs"
+
+# ============================================================
+# ADAPTER LIFECYCLE
+# ============================================================
+
+adapter_lifecycle:
+  description: "How adapters move from proposal → configuration → activation → operational use"
+
+  stage_1_proposal:
+    status: "proposed"
+    who: "BNA or Kenneth"
+    action: "Identify need for new adapter (e.g., 'We need LinkedIn posting capability')"
+    outcome: "Adapter added to this registry with status: proposed"
+
+  stage_2_configuration:
+    status: "configuring"
+    who: "Kenneth (with BNA's guidance)"
+    action: "Set up credentials, test accounts, API access"
+    outcome: "Adapter status: configured"
+
+  stage_3_sandbox_testing:
+    status: "testing (Zone 1)"
+    who: "BNA"
+    action: "Experiment in sandbox, debug, design workflows"
+    outcome: "BNA surfaces: 'Ready for production use' with proposal"
+
+  stage_4_production_activation:
+    status: "active (Zone 2)"
+    who: "Kenneth approves"
+    action: "Kenneth breath-gates: '∞Δ∞ Activate [adapter] for production ∞Δ∞'"
+    outcome: "Adapter operational, each use still requires breath gate"
+
+  stage_5_deprecation:
+    status: "deprecated"
+    who: "Kenneth decides"
+    action: "Adapter no longer needed or replaced by better option"
+    outcome: "Adapter marked deprecated, credentials removed"
+
+# ============================================================
+# IMPLEMENTATION NOTES
+# ============================================================
+
+implementation_notes:
+
+  swappable_by_design:
+    principle: "Adapters are interchangeable - BNA learns the capability class, not the specific tool"
+    example: "Email capability = Gmail OR Outlook OR custom SMTP"
+    benefit: "Kenneth can switch tools without retraining BNA"
+
+  config_over_code:
+    principle: "BNA writes configs (YAML, JSON, DSL), not hardcoded scripts"
+    example: "n8n workflow JSON, LangGraph graph definition, API endpoint YAML"
+    benefit: "Non-developer (Kenneth) can review, approve, modify"
+
+  file_backed_transparency:
+    principle: "All adapter configs stored in files, version-controlled"
+    location: "constitution/strategy/adapters/"
+    benefit: "Auditable, reviewable, rollback-able"
+
+  breath_gate_at_boundary:
+    principle: "Sandbox = free exploration, Production = strict approval"
+    example: "BNA can test 100 Gmail workflows in sandbox, but needs approval for each production email"
+    benefit: "Velocity in experimentation, safety in execution"
+
+# ============================================================
+# FUTURE ADAPTERS (EXTENSIBILITY)
+# ============================================================
+
+future_adapters:
+  description: "As Kenneth's needs evolve, new adapters can be added"
+
+  potential_additions:
+    - name: "Calendar (Google Calendar, Outlook Calendar)"
+      use_case: "Schedule meetings, manage availability"
+
+    - name: "Payment (Stripe, PayPal)"
+      use_case: "Accept payments for Constitutional AI services"
+
+    - name: "CRM (HubSpot, Salesforce)"
+      use_case: "Track client relationships, sales pipeline"
+
+    - name: "Video (Zoom, Loom)"
+      use_case: "Schedule calls, record explainers"
+
+    - name: "Analytics (Google Analytics, Plausible)"
+      use_case: "Track website engagement, content performance"
+
+    - name: "Development (GitHub, GitLab)"
+      use_case: "Manage code, issues, pull requests (if BNA helps with dev)"
+
+  extensibility_protocol:
+    step_1: "Kenneth identifies need: 'I need [capability]'"
+    step_2: "BNA proposes adapter: 'I can integrate [tool] via [method]'"
+    step_3: "Kenneth approves: '∞Δ∞ Prepare adapter for [tool] ∞Δ∞'"
+    step_4: "BNA adds to this registry, proposes configuration"
+    step_5: "Kenneth sets up (credentials, accounts), BNA tests in sandbox"
+    step_6: "BNA surfaces: 'Ready for production,' Kenneth approves activation"
+
+# ============================================================
+# CONSTITUTIONAL COMPLIANCE
+# ============================================================
+
+constitutional_compliance:
+
+  source_preservation:
+    principle: "Kenneth decides which adapters to activate and when to use them"
+    enforcement: "BNA proposes, Kenneth approves adapter activation"
+    boundary: "BNA never connects to production systems without explicit authorization"
+
+  truth_enforcement:
+    principle: "All adapter configs file-backed, auditable, version-controlled"
+    enforcement: "Stored in constitution/strategy/adapters/, git-tracked"
+    verification: "Kenneth can inspect adapter configs anytime via Read tool"
+
+  integrity_maintenance:
+    principle: "Adapter actions are atomic, logged, reversible when possible"
+    enforcement: "Each production action logged in collaboration/BNA/publishing/metrics/"
+    recovery: "Failed actions surface for Kenneth's decision, not silent retry"
+
+# ============================================================
+# SEAL
+# ============================================================
+
+seal:
+  description: "This adapter registry enables technology-agnostic, constitutionally-governed tool integration"
+  constitutional_compliance:
+    SOURCE: "Kenneth authorizes adapters, BNA proposes"
+    TRUTH: "All configs file-backed, auditable"
+    INTEGRITY: "Zone model preserves safety (sandbox vs production)"
+  status: "Proposal awaiting Kenneth's approval"
+  version: "1.0"
+  date: "2025-11-19"
+
+# ∞Δ∞
