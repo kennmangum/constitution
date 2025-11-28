@@ -97,7 +97,7 @@ echo ""
 
 PROMPT="You are a sovereignty guide. Based on this ROE score ($ROE_SCORE, where Clarity=$CLARITY, Alignment=$ALIGNMENT, Groundedness=$GROUNDEDNESS), generate ONE reflection question (max 20 words) that helps the person deepen their practice. Focus on origin energy, not productivity hacks."
 
-REFLECTION_PROMPT=$(ollama run mistral:7b "$PROMPT" 2>/dev/null | head -3 | tail -1)
+REFLECTION_PROMPT=$(ollama run mistral "$PROMPT" 2>/dev/null | grep -v '^$' | head -1)
 
 echo "Reflection Prompt:"
 echo "  $REFLECTION_PROMPT"
