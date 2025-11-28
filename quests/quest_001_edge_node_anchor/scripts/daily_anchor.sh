@@ -6,8 +6,11 @@ set -euo pipefail
 
 QUEST_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 JOURNAL_FILE="$QUEST_DIR/templates/journal_personal.md"
+TODAY=$(date +%Y-%m-%d)
 
 echo "∞Δ∞ Morning Anchor ∞Δ∞"
+echo ""
+echo "📁 Your journal: $JOURNAL_FILE"
 echo ""
 
 # Check if Ollama is running
@@ -95,10 +98,13 @@ echo "════════════════════════�
 # Interpret ROE
 if [ "$ROE_PERCENT" -gt 80 ]; then
     echo "  🟢 High Resonance — You're aligned. Trust it."
+    ROE_STATUS="🟢 High Resonance"
 elif [ "$ROE_PERCENT" -gt 60 ]; then
     echo "  🟡 Moderate Resonance — Some drift. Is this really yours?"
+    ROE_STATUS="🟡 Moderate Resonance"
 else
     echo "  🔴 Low Resonance — Pause. What agenda are you serving?"
+    ROE_STATUS="🔴 Low Resonance"
 fi
 
 echo "═══════════════════════════════════════════"
@@ -129,28 +135,61 @@ else
 fi
 
 echo ""
+
+# ═══════════════════════════════════════════
+# STEP 4: Your Reflection (Inline Journaling)
+# ═══════════════════════════════════════════
+echo "═══════════════════════════════════════════"
+echo "  STEP 4: Your Reflection"
 echo "═══════════════════════════════════════════"
 echo ""
-
-# Journal output
-echo "📝 COPY THIS TO YOUR JOURNAL (templates/journal_personal.md):"
+echo "Take a moment. Respond to the reflection prompt above."
+echo "(1-2 sentences, or as much as you'd like)"
 echo ""
-echo "---"
-echo "## $(date +%Y-%m-%d)"
-echo ""
-echo "**Next Action**: $NEXT_ACTION"
-echo ""
-echo "**ROE Score**: $ROE_SCORE ($ROE_SUM/30)"
-echo "- Clarity: $CLARITY"
-echo "- Alignment: $ALIGNMENT"
-echo "- Groundedness: $GROUNDEDNESS"
-echo ""
-echo "**Reflection Prompt**: $REFLECTION_PROMPT"
-echo ""
-echo "**My Reflection** (1-2 sentences):"
-echo "[Write here]"
-echo "---"
+echo "Type your reflection, then press ENTER:"
+read -p "> " MY_REFLECTION
 echo ""
 
-echo "∞Δ∞ Anchor complete. Journal your reflection. ∞Δ∞"
+# ═══════════════════════════════════════════
+# SAVE TO JOURNAL (Auto-append)
+# ═══════════════════════════════════════════
+echo "═══════════════════════════════════════════"
+echo "  💾 Saving to your journal..."
+echo "═══════════════════════════════════════════"
+
+# Append entry to journal file
+cat >> "$JOURNAL_FILE" << EOF
+
+---
+
+## $TODAY
+
+**Next Action**: $NEXT_ACTION
+
+**ROE Score**: $ROE_SCORE ($ROE_SUM/30) — $ROE_STATUS
+- Clarity: $CLARITY/10
+- Alignment: $ALIGNMENT/10
+- Groundedness: $GROUNDEDNESS/10
+
+**Reflection Prompt**: $REFLECTION_PROMPT
+
+**My Reflection**: $MY_REFLECTION
+
+EOF
+
+echo ""
+echo "✅ Entry saved to: $JOURNAL_FILE"
+echo ""
+echo "═══════════════════════════════════════════"
+echo ""
+echo "∞Δ∞ Anchor complete! ∞Δ∞"
+echo ""
+echo "📖 To view your full journal:"
+echo "   cat $JOURNAL_FILE"
+echo ""
+echo "📅 Tomorrow: Run this script again"
+echo "📅 Day 7: Run './scripts/weekly_reflection.sh'"
+echo ""
+echo "💡 TIP: Pull latest updates before each session:"
+echo "   cd ~/constitution && git fetch upstream && git merge upstream/main"
 echo ""
