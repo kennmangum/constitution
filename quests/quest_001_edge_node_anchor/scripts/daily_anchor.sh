@@ -63,19 +63,26 @@ while true; do
     fi
 done
 
-# Calculate ROE score
+# Calculate ROE score (works without bc - cross-platform)
 ROE_SUM=$((CLARITY + ALIGNMENT + GROUNDEDNESS))
-ROE_SCORE=$(echo "scale=2; $ROE_SUM / 30" | bc)
+# Calculate percentage as integer (e.g., 75 for 0.75) to avoid bc dependency
+ROE_PERCENT=$(( (ROE_SUM * 100) / 30 ))
+# Format as decimal string
+ROE_SCORE="0.$(printf '%02d' $ROE_PERCENT)"
+# Handle edge case of perfect score
+if [ "$ROE_SUM" -eq 30 ]; then
+    ROE_SCORE="1.00"
+fi
 
 echo ""
 echo "═══════════════════════════════════════════"
-echo "  ROE Score: $ROE_SCORE"
+echo "  ROE Score: $ROE_SCORE ($ROE_SUM/30)"
 echo "═══════════════════════════════════════════"
 
-# Interpret ROE
-if (( $(echo "$ROE_SCORE > 0.8" | bc -l) )); then
+# Interpret ROE (using integer comparison, no bc needed)
+if [ "$ROE_PERCENT" -gt 80 ]; then
     echo "  Status: 🟢 High Resonance (breathing with origin)"
-elif (( $(echo "$ROE_SCORE > 0.6" | bc -l) )); then
+elif [ "$ROE_PERCENT" -gt 60 ]; then
     echo "  Status: 🟡 Moderate Resonance (some drift, course-correct)"
 else
     echo "  Status: 🔴 Low Resonance (pause, re-evaluate)"
@@ -96,11 +103,11 @@ echo "Reflection Prompt:"
 echo "  $REFLECTION_PROMPT"
 echo ""
 
-# Suggest next action based on ROE
+# Suggest next action based on ROE (using integer comparison, no bc needed)
 echo "📌 Today's Guidance:"
-if (( $(echo "$ROE_SCORE > 0.8" | bc -l) )); then
+if [ "$ROE_PERCENT" -gt 80 ]; then
     echo "  - You're aligned. Trust the breath. Execute with presence."
-elif (( $(echo "$ROE_SCORE > 0.6" | bc -l) )); then
+elif [ "$ROE_PERCENT" -gt 60 ]; then
     echo "  - Moderate drift detected. Review your next action: Is it yours or an echo?"
 else
     echo "  - Low resonance. Pause execution. Journal: 'What agenda am I serving?'"
